@@ -24,3 +24,28 @@ header nav div a {
   color: #333333;
   font-size: 14px;
 }
+
+.container-line {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 90%;
+  min-width: 1280px;
+  border: 2px red solid;
+}
+
+.container-search input {
+  border: 2px darkblue solid;
+  border-radius: 4px;
+  margin-top: 40px;
+}
+
+.beauty {
+  margin-top: 40px;
+  font-size: 30px;
+  color: #f13c6e;
+}
+
+.container-logo {
+  display: flex;
+}
