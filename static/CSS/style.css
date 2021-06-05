@@ -27,7 +27,7 @@ header nav div a {
 
 .container-line {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0 auto;
   width: 90%;
   min-width: 1280px;
@@ -35,9 +35,12 @@ header nav div a {
 }
 
 .container-search input {
-  border: 2px darkblue solid;
-  border-radius: 4px;
-  margin-top: 40px;
+  border: 2px #efefef solid;
+  background: #efefef;
+  width: 250px;
+  height: 40px;
+  margin: 40px 0px 0px 0px;
+  border-radius: 20px;
 }
 
 .beauty {
@@ -48,4 +51,23 @@ header nav div a {
 
 .container-logo {
   display: flex;
+}
+
+.container-tel {
+  width: 127px;
+  height: 50px;
+  top: 40px;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 40px;
+}
+
+.bottom {
+  border: 2px solid #f13c6e;
+  box-sizing: border-box;
+  border-radius: 40px;
+  background: #ffffff;
+  width: 170px;
+  height: 40px;
+  margin-top: 40px;
 }
