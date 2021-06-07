@@ -27,11 +27,22 @@ header nav div a {
 
 .container-line {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  height: 100%;
   margin: 0 auto;
   width: 90%;
   min-width: 1280px;
   border: 2px red solid;
+}
+
+.container-logo {
+  display: flex;
+}
+
+.beauty {
+  margin: 40px 0px 0px 60px;
+  font-size: 30px;
+  color: #f13c6e;
 }
 
 .container-search input {
@@ -39,35 +50,33 @@ header nav div a {
   background: #efefef;
   width: 250px;
   height: 40px;
-  margin: 40px 0px 0px 0px;
+  margin: 40px 0px 0px 170px;
   border-radius: 20px;
 }
 
-.beauty {
-  margin-top: 40px;
-  font-size: 30px;
-  color: #f13c6e;
-}
-
-.container-logo {
-  display: flex;
-}
-
 .container-tel {
-  width: 127px;
-  height: 50px;
+  width: 157px;
+  height: 60px;
   top: 40px;
   font-size: 16px;
-  line-height: 19px;
-  margin-top: 40px;
+  line-height: 70px;
+  margin: 40px 0px 0px 30px;
 }
 
 .bottom {
   border: 2px solid #f13c6e;
   box-sizing: border-box;
   border-radius: 40px;
-  background: #ffffff;
   width: 170px;
   height: 40px;
-  margin-top: 40px;
+  margin-top: 50px;
+}
+
+.container-small {
+  text-decoration: none;
+  color: #333333;
+  font-size: 14px;
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
 }
